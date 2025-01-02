@@ -16,7 +16,7 @@ var map = L.map('map').setView([-15.9899, -48.0443], 15);
             popupAnchor: [0, -30]
         });
         
-        L.marker([-15.9899, -48.0500], {icon: myIconRed}).addTo(map).bindPopup('Proximo da UnB Gama')
+        L.marker([-15.9899, -48.0500], {icon: myIconRed}).addTo(map).bindPopup('Próximo da UnB Gama')
             .openPopup();
 
         L.marker([-15.9899, -48.0443], {icon: myIcon}).addTo(map).bindPopup('UnB Gama')
