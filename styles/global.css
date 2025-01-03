@@ -3,6 +3,23 @@
     padding: 0px;
 }
 
+:root {
+    --darkblue-color: #104177;
+    --white-color: #FFFFFF;
+    --text-color-primary: #000000;
+
+    --font-family: "IBM Plex Mono", serif;
+    --h1: 500 2.5rem/1.0 var(--font-family);
+    --span: 500 0.875rem/1.0 var(--font-family);
+}
+
 #map {
     height: 100vh;
+    position: relative;
+    z-index: 0;
+}
+
+p {
+    color: var(--white-color);
+    font: var(--span);
 }

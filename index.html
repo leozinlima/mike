@@ -1,15 +1,50 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Exemplo de Leaflet</title>
+
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css">
     <link rel="stylesheet" href="styles/index.css">
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+
 </head>
 
 <body>
-    <div id="map"></div>
+    <div id="componente01">
+        <div id="componente03"></div>
+        <h1>URBANIZE</h1>
+
+        <div id="componente02">
+            <div id="componente04">
+                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="30" viewBox="0 0 32 30" fill="none">
+                    <path d="M21.7031 20.5049L29.7172 28M25.0976 12.8333C25.0976 18.8164 19.927 23.6667 13.5488 23.6667C7.17058 23.6667 2 18.8164 2 12.8333C2 6.85024 7.17058 2 13.5488 2C19.927 2 25.0976 6.85024 25.0976 12.8333Z" stroke="white" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+                <p>Procurar</p>
+            </div>
+            <div id="componente05">
+                <svg xmlns="http://www.w3.org/2000/svg" width="23" height="28" viewBox="0 0 23 28" fill="none">
+                    <path d="M0.796767 26.7605C0.265589 26.4008 0 25.9749 0 25.4829C0 24.9918 0.265589 24.5664 0.796767 24.2067L16.3603 13.668L0.743649 3.09328C0.247883 2.75758 0 2.33794 0 1.83439C0 1.33083 0.265589 0.899209 0.796767 0.539526C1.32794 0.179842 1.95686 0 2.68351 0C3.40875 0 4.03695 0.179842 4.56813 0.539526L22.4157 12.6609C22.6282 12.8047 22.779 12.9606 22.8683 13.1285C22.9561 13.2963 23 13.4762 23 13.668C23 13.8598 22.9561 14.0397 22.8683 14.2075C22.779 14.3754 22.6282 14.5312 22.4157 14.6751L4.51501 26.7964C4.01924 27.1321 3.40875 27.3 2.68351 27.3C1.95686 27.3 1.32794 27.1202 0.796767 26.7605Z" fill="white"/>
+                </svg>
+                <p>Listar</p>
+            </div>
+            <div id="componente06">
+                <svg xmlns="http://www.w3.org/2000/svg" width="34" height="32" viewBox="0 0 34 32" fill="none">
+                    <path d="M2 4.48889C2 3.6177 2 3.1821 2.18165 2.84935C2.34145 2.55666 2.59642 2.31869 2.91002 2.16954C3.26653 2 3.73325 2 4.66667 2H29.3333C30.2668 2 30.7335 2 31.09 2.16954C31.4037 2.31869 31.6585 2.55666 31.8183 2.84935C32 3.1821 32 3.6177 32 4.48889V7.19129C32 7.57177 32 7.762 31.954 7.94102C31.9132 8.09975 31.8458 8.25148 31.7543 8.39066C31.6513 8.54764 31.5072 8.68217 31.219 8.9512L21.1143 18.3822C20.8262 18.6511 20.682 18.7857 20.579 18.9426C20.4875 19.0819 20.4202 19.2335 20.3793 19.3924C20.3333 19.5714 20.3333 19.7616 20.3333 20.142V23.7778L13.6667 30V20.142C13.6667 19.7616 13.6667 19.5714 13.6206 19.3924C13.5798 19.2335 13.5125 19.0819 13.4211 18.9426C13.318 18.7857 13.1739 18.6511 12.8856 18.3822L2.78105 8.9512C2.4928 8.68217 2.34867 8.54764 2.2456 8.39066C2.15422 8.25148 2.08688 8.09975 2.04605 7.94102C2 7.762 2 7.57177 2 7.19129V4.48889Z" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+                <p>Filtrar</p>
+            </div>
+        </div>
+
+    </div>
+    
+
+    <div id="map">
+    </div>
     
     <script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js"></script>
     <script src="scripts.js"></script>
